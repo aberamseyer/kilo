@@ -10,7 +10,7 @@ kilo: kilo.o
 	$(CC) -c -o $@ $(CFLAGS) $<
 
 run:
-	./kilo
+	./kilo ./test.c
 
 .PHONY: clean
 
